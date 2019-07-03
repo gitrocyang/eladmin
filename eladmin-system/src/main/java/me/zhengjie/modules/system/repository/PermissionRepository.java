@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author jie
+ * @author Zheng Jie
  * @date 2018-12-03
  */
 public interface PermissionRepository extends JpaRepository<Permission, Long>, JpaSpecificationExecutor {
@@ -28,6 +28,4 @@ public interface PermissionRepository extends JpaRepository<Permission, Long>, J
      * @return
      */
     List<Permission> findByPid(long pid);
-
-    Set<Permission> findByRoles(Set<Role> roles);
 }

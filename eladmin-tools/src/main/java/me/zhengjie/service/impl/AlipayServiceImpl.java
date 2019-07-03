@@ -9,7 +9,7 @@ import me.zhengjie.domain.vo.TradeVo;
 import me.zhengjie.exception.BadRequestException;
 import me.zhengjie.repository.AlipayRepository;
 import me.zhengjie.service.AlipayService;
-import me.zhengjie.util.AlipayUtils;
+import me.zhengjie.utils.AlipayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Optional;
 
 /**
- * @author jie
+ * @author Zheng Jie
  * @date 2018-12-31
  */
 @Service
